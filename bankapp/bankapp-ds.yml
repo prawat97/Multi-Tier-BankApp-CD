@@ -5,8 +5,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: bankapp
-spec:
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 1
   selector:
     matchLabels:
