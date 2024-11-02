@@ -17,7 +17,7 @@ metadata:
     spec:
       containers:
       - name: bankapp
-        image: prpankaj/bankapp:v21
+        image: prpankaj/bankapp:v40
         ports:
         - containerPort: 8080
         env:
